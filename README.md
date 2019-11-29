@@ -5,6 +5,6 @@
 $ PROXY_TO=host-to-proxy.com docker-compose up
 ```
 
-#### TODO
-[ ] By sub-location
-[ ] Check https
+#### TODO's
+- [ ] By sub-location
+- [ ] Check https
