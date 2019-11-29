@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    build: .
+    image: tbert/nginx-dummy-reverse-proxy
     environment:
       - PROXY_TO=${PROXY_TO}
     ports:
