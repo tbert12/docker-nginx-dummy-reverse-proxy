@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nginx:
+    build: .
+    environment:
+      - PROXY_TO=${PROXY_TO}
+    ports:
+      - 8080:80
+      - 4430:443
